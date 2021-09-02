@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="examplFlow" doc:id="fb254fb6-af31-4bed-b35e-eab24f8d21b7" >
+		<http:listener doc:name="Listener" doc:id="96ce3c74-bc2c-48cf-9c19-34cd457a6842" config-ref="HTTP_Listener_config" path="/admdetails"/>
+	</flow>
+</mule>
