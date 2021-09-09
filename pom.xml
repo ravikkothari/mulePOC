@@ -31,14 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<sharedLibraries>
-						<sharedLibrary>
-							<groupId>com.mycompany</groupId>
-							<artifactId>postgresql-42.2.23</artifactId>
-						</sharedLibrary>
-						<sharedLibrary>
-							<groupId>mysql</groupId>
-							<artifactId>mysql-connector-java</artifactId>
-						</sharedLibrary>
+						
 					</sharedLibraries>
 				</configuration>
 			</plugin>
@@ -63,16 +56,6 @@
 			<artifactId>mule-db-connector</artifactId>
 			<version>1.9.3</version>
 			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>com.mycompany</groupId>
-			<artifactId>postgresql-42.2.23</artifactId>
-			<version>0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.48</version>
 		</dependency>
 	</dependencies>
 
